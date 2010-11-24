@@ -10,6 +10,7 @@
     <file path="properties/languages/fr.prop" />
   </private-files>
   <public-files>
+    <file include="EMPTY_HEADER_START" path="jsp/headerDebug.jsp"  />    
     <directory path="css/" />
     <directory path="js/" />
     <directory path="jsp/" />
@@ -17,7 +18,6 @@
   </public-files>
   <webapp-files>
   	 <file path="jcore/doInitPage.jsp" />
-     <file path="jcore/doEmptyHeader.jsp" />
   </webapp-files>
 </plugin>
 
